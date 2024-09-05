@@ -13,7 +13,7 @@ COPY . .
 # Installing dependencies
 RUN npm install
 
-EXPOSE 1119
+EXPOSE 1118
 
 # Starting our application
 CMD [ "node", "index.js" ]
