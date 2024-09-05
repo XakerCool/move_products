@@ -13,7 +13,7 @@ const {StoreProcessor} = require("./storeProcessor");
 const envPath = path.join(__dirname, '.env');
 dotenv.config({ path: envPath });
 
-const PORT = 1118;
+const PORT = 3452;
 const app = express();
 
 const link = process.env.BX_LINK;
